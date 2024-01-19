@@ -1,11 +1,11 @@
 Per avviare l'app(versione desktop) installa:
 
--npm i bootstrap react-bootstrap
--npm i react-router-dom
--npm i react-redux
--npm i axios
--npm i @reduxjs/toolkit
--npm i @fortawesome/react-fontawesome
+- npm i bootstrap react-bootstrap
+- npm i react-router-dom
+- npm i react-redux
+- npm i axios
+- npm i @reduxjs/toolkit
+- npm i @fortawesome/react-fontawesome
 
 Funzioni implementate:
 
