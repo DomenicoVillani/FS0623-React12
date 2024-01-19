@@ -1,11 +1,14 @@
-Per avviare l'app(versione desktop) installa:
+Per eseguire l'applicazione:
 
-- npm i bootstrap react-bootstrap
-- npm i react-router-dom
-- npm i react-redux
-- npm i axios
-- npm i @reduxjs/toolkit
-- npm i @fortawesome/react-fontawesome
+1. Avviare la cartella con l'IDEE
+2. Avviare le seguenti installazioni:
+    - npm i bootstrap react-bootstrap
+    - npm i react-router-dom
+    - npm i react-redux
+    - npm i axios
+    - npm i @reduxjs/toolkit
+    - npm i @fortawesome/react-fontawesome
+3. Ora potrai usufruire del tuo clone di Spotify ESCLUSIVAMENTE DESKTOP! Divertiti ascoltando la tua musica preferita!
 
 Funzioni implementate:
 
