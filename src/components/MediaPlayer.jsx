@@ -20,7 +20,7 @@ const MediaPlayer = () => {
             {song.track && (
                 <>
                  <Col xs={5}>
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center mt-1">
                     <img
                         src={song.track.album.cover_small}
                         alt="track"
@@ -77,7 +77,7 @@ const MediaPlayer = () => {
                             </Row>
                         </Col>
                         <Col xs={12} className="mt-3">
-                            <ProgressBar now={30} className="progress" />
+                            <ProgressBar now={35} className="progress" />
                         </Col>
                     </Row>
                 </Col>

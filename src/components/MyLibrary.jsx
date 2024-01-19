@@ -17,7 +17,7 @@ const MyLibrary = () => {
         <>
             <div className="mainPage mt-3 ms-5">
                 <Row>
-                    <Col className="col-9 col-lg-11 mainLinks d-none d-md-flex">
+                    <Col className="col-12 mainLinks d-none d-md-flex margin-left-home mt-3">
                         <a href="www">TRENDING</a>
                         <a href="www">PODCAST</a>
                         <a href="www">MOODS AND GENRES</a>
@@ -27,8 +27,8 @@ const MyLibrary = () => {
                 </Row>
                 <Row>
                     <Col >
-                        <div id="rock">
-                            <h2>My Library</h2>
+                        <div id="rock" className="margin-left-home col-12">
+                            <h2 className="mb-4">My Library</h2>
                             <div
                                 id="rockSection"
                             >
@@ -38,7 +38,7 @@ const MyLibrary = () => {
                                             <img src={song.album.cover_medium} alt={song.album.title} />
                                             <div className="d-flex justify-content-around align-items-center me-3">
                                                 <p className="custom-font-size-p mt-3" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                                                    Titolo: {song.title.length ? song.title : `${song.title}...`}
+                                                    {song.title.length ? song.title : `${song.title}...`}
                                                 </p>
                                                 <div className="me-5">
                                                     <AiFillHeart

@@ -31,7 +31,7 @@ const Sidebar = () => {
               alt="Spotify_Logo"
               width="131"
               height="40"
-              className="my-2"
+              className="my-2 img-spotify"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
@@ -41,7 +41,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faHome} className="mx-2 mt-2" />
                 Home
               </Link>
-              <Link to="/mylibrary" className="nav-link">
+              <Link to="/mylibrary" className="nav-link mb-2">
                 <FontAwesomeIcon icon={faBookOpen} className="mx-2" />
                 Your Library
               </Link>
@@ -75,7 +75,9 @@ const Sidebar = () => {
           >
             Login
           </Button>
-          <a href="www">Cookie Policy</a> | <a href="www"> Privacy</a>
+          <div>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Cookie Policy</a> | <a href="www"> Privacy</a>
+          </div>
         </div>
       </Navbar>
     </div>

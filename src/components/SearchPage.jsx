@@ -9,7 +9,7 @@ const SearchPage = () => {
     return (
         <div className="mainPage">
             <Row>
-                <Col className="col-9 col-lg-11 mainLinks d-none d-md-flex">
+                <Col className="col-12 mainLinks d-none d-md-flex margin-left-home mt-3">
                     <a href="www">TRENDING</a>
                     <a href="www">PODCAST</a>
                     <a href="www">MOODS AND GENRES</a>
@@ -19,7 +19,7 @@ const SearchPage = () => {
             </Row>
             <Row>
                 <Col >
-                    <div id="rock">
+                    <div id="rock" className="margin-left-home col-12">
                         <h2>Search Results</h2>
                         <div
                             id="rockSection"

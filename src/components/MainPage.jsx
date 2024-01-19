@@ -6,7 +6,7 @@ const MainPage = () => {
     return (
         <div className="mainPage mt-3 ms-5">
             <Row>
-                <Col className="col-9 col-lg-11 mainLinks d-none d-md-flex">
+                <Col className="col-12 mainLinks d-none d-md-flex margin-left-home">
                     <a href="www">TRENDING</a>
                     <a href="www">PODCAST</a>
                     <a href="www">MOODS AND GENRES</a>
@@ -14,10 +14,10 @@ const MainPage = () => {
                     <a href="www">DISCOVER</a>
                 </Col>
             </Row>
-            <Row>
+            <Row className="margin-left-home col-12">
                 <Col >
                     <div id="rock">
-                        <h2>Rock Classics</h2>
+                        <h2 className="margin-bottom-h2">Rock Classics</h2>
                         <div
                             id="rockSection"
                         >
@@ -26,10 +26,10 @@ const MainPage = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className="margin-left-home col-12">
                 <Col className="col-12">
                     <div id="pop">
-                        <h2>Pop Culture</h2>
+                        <h2 className="margin-bottom-h2">Pop Culture</h2>
                         <div
                             id="popSection"
                         >
@@ -38,10 +38,10 @@ const MainPage = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className="margin-left-home col-12">
                 <Col className="col-12">
                     <div id="hiphop">
-                        <h2>#HipHop</h2>
+                        <h2 className="margin-bottom-h2">#HipHop</h2>
                         <div
                             id="hipHopSection"
                         >

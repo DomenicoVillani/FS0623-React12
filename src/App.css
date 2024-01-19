@@ -8,7 +8,6 @@ body {
   );
 }
 
-/*SIDEBAR SECTION*/
 .navbar.fixed-left {
   position: fixed;
   top: 0;
@@ -75,9 +74,14 @@ ul {
   margin-bottom: 20px;
 }
 
+.img-spotify:hover{
+  cursor: pointer;
+}
+
 .login-btn:hover {
   color: black;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.856) !important;
+  box-shadow: inset 0 0 0 2px green
 }
 
 @media screen and (max-width: 936px) {
@@ -85,8 +89,6 @@ ul {
     display: none;
   }
 }
-
-/* BOTTOM PLAYER SECTION*/
 
 .c-player {
   margin-left: -180px!important;
@@ -127,8 +129,6 @@ ul {
   margin-bottom: 20px;
   color: white;
 }
-
-/*MAIN PAGE SECTION*/
 
 .mainLinks {
   margin-top: 1.5rem;
@@ -245,4 +245,12 @@ ul {
 
 .margin-custom{
   margin-bottom: 200px;
+}
+
+.margin-left-home{
+  margin-left: 25% !important;
+}
+
+.margin-bottom-h2{
+  margin-bottom: 3%;
 }
